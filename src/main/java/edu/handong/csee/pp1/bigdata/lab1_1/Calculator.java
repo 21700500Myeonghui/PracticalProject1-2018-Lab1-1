@@ -1,4 +1,4 @@
-// This is an one line comment.
+ // This is an one line comment.
 /*
  * This is a block comment. You can write comments in multiple lines.
  */
@@ -6,7 +6,7 @@
  * A package is a namespace where your related classes and interfaces are grouped.
  * When you share your program to other developers,
  * other developers can import the package and can use classes and interfaces in the package
- */
+ */ 
 package edu.handong.csee.pp1.bigdata.lab1_1; 
 
 
@@ -90,7 +90,7 @@ public class Calculator {
 	int subtract(int first, int second) {
 		countForAnyCompution++;
 		localCount++;
-		return first + second;
+		return first - second;
 	}
 
 	int multiply(int first, int second) {
